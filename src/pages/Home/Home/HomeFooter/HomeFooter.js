@@ -16,21 +16,20 @@ const HomeFooter = () => {
                                         </div>
                                         <div className="emmergency-call-text f-left">
                                             <h6>Emergency number</h6>
-                                            <span>202-555-0104</span>
+                                            <span>+88 01711 030 474</span>
                                         </div>
                                     </div>
                                     <div className="footer-logo mb-35">
-                                        <Link to="/"><img src="img/logo/footer-logo.png" alt=""/></Link>
+                                        <Link to="/"><img src="img/logo/promident-logo.png" tyle={{ maxWidth: "185px", maxHeight: "60px" }} alt=""/></Link>
                                     </div>
                                     <div className="footer-contact-content mb-25">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+                                        <p>Promident…means prominence in dental specialty. Our is an advanced dental center providing the highest quality dental care. We specialize in rejuvenating the facial appearance and maintaining a healthy smile.</p>
                                     </div>
                                     <div className="footer-emailing">
                                         <ul>
-                                            <li><i className="far fa-envelope"></i>info@examplemedical.com</li>
-                                            <li><i className="far fa-clone"></i>examplemedical.com</li>
-                                            <li><i className="far fa-flag"></i>227 Marion Street, Columbia</li>
+                                            <li><i className="far fa-envelope"></i>promidentdental@gmail.com</li>
+                                            {/* <li><i className="far fa-clone"></i>examplemedical.com</li> */}
+                                            <li><i className="far fa-flag"></i>House-49, Block-H, Road-11, Banani, Dhaka-1213</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -77,7 +76,7 @@ const HomeFooter = () => {
                         <div className="row">
                             <div className="col-xl-12">
                                 <div className="footer-copyright text-center">
-                                    <p className="white-color">Copyright by@ BasicTheme - 2022</p>
+                                    <p className="white-color">Promident Dental © 2022 / All Rights Reserved</p>
                                 </div>
                             </div>
                         </div>

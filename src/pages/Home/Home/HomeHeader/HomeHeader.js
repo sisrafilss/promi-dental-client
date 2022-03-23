@@ -148,8 +148,8 @@ const HomeHeader = () => {
                         </ul> */}
                       </li>
                       <li>
-                        <Link to="/services">Services +</Link>
-                        <ul className="submenu">
+                        <Link to="/services">Services</Link>
+                        {/* <ul className="submenu">
                           <li>
                             <Link to="/services">Services 01</Link>
                           </li>
@@ -159,11 +159,11 @@ const HomeHeader = () => {
                           <li>
                             <Link to="/servicesDetails">Services Details</Link>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
                       <li>
-                        <Link to="/doctors">Our Doctors +</Link>
-                        <ul className="submenu">
+                        <Link to="/doctors">Our Doctors</Link>
+                        {/* <ul className="submenu">
                           <li>
                             <Link to="/doctors">Doctors 01</Link>
                           </li>
@@ -173,7 +173,7 @@ const HomeHeader = () => {
                           <li>
                             <Link to="/doctorDetails">Doctors Details</Link>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
 
                       <li>
@@ -207,7 +207,7 @@ const HomeHeader = () => {
                         </ul>
                       </li> */}
                       <li>
-                        <Link to="/blogs">Blog +</Link>
+                        <Link to="/blogs">Blog</Link>
                         {/* <ul className="submenu">
                           <li>
                             <Link to="/blogs">Blog Right Sidebar</Link>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const HomeSingleBlogLeftSide = ({image}) => {
+const HomeSingleBlogLeftSide = ({image, title, description}) => {
    return (
       <>
          <div className="col-xl-4 col-lg-6 col-md-6">
@@ -14,10 +14,8 @@ const HomeSingleBlogLeftSide = ({image}) => {
                      <span><Link to="/blogDetails" className="news-tag">Medical,</Link></span>
                      <span><Link to="/blogDetails" className="news-tag">Medicine</Link></span>
                   </div>
-                  <h3><Link to="/blogDetails">Lorem ipsum dolor sit amet, cons ectetur adidis dicolo wiran.</Link></h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                     magna
-                     aliqua. Ut enim ad minim veniam.</p>
+                  <h3><Link to="/blogDetails">{title}</Link></h3>
+                  <p>{description.slice(0, 450)}</p>
                </div>
             </div>
          </div>

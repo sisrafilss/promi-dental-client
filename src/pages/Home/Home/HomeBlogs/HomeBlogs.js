@@ -15,7 +15,7 @@ const HomeBlogs = () => {
                            <img className="section-back-icon back-icon-left" src="img/section/section-back-icon.png" alt="" />
                         </div>
                         <div className="section-text pos-rel">
-                           <h5>News</h5>
+                           <h5>Blogs</h5>
                            <h1>Get Every Single Updates Here.</h1>
                         </div>
                         <div className="section-line pos-rel">
@@ -34,8 +34,9 @@ const HomeBlogs = () => {
 
                <div className="row">
 
-                  <HomeSingleBlogLeftSide image="1" />
-                  <HomeSingleBlogLeftSide image="2" />
+                  <HomeSingleBlogLeftSide image="1" title="The Essentials of Vitamin D for your Teeth" description="For the last two years we are passing the most challenging time of our life span. Covid 19 pandemic just change our passion, life style, food habits and many other things. As a dental surgeon I do running my dental practice throughout the time with proper health maintenance and guidelines. During this session I just wondered that the dental problems increased enormously, to be specific the tooth damage problem. To satisfy my curious mind I do a research over my patients and surprisingly discover that, those patients who were most confined at house were mostly facing the tooth problems. And I do some investigations regarding Vitamin D level and revealed that majority of the effected patients had low vitamin D levels." />
+                  <HomeSingleBlogLeftSide image="2" title="The Essentials of Vitamin D for your Teeth" description="For the last two years we are passing the most challenging time of our life span. Covid 19 pandemic just change our passion, life style, food habits and many other things. As a dental surgeon I do running my dental practice throughout the time with proper health maintenance and guidelines. During this session I just wondered that the dental problems increased enormously, to be specific the tooth damage problem. To satisfy my curious mind I do a research over my patients and surprisingly discover that, those patients who were most confined at house were mostly facing the tooth problems. And I do some investigations regarding Vitamin D level and revealed that majority of the effected patients had low vitamin D levels." />
+                  {/* <HomeSingleBlogLeftSide image="2" /> */}
 
                   <div className="col-xl-4 col-lg-12 col-md-12">
                      <div className="recent-news-list mb-120">

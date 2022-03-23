@@ -7,9 +7,9 @@ const HomeAboutArea = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-6 col-lg-5 about_left">
-              <div className="medical-icon-brand-2">
+              {/* <div className="medical-icon-brand-2">
                 <img src="img/about/medical-brand-icon-border.png" alt="" />
-              </div>
+              </div> */}
               <div className="about-left-side pos-rel mb-30">
                 <div className="about-front-img">
                   <img src="img/about/about-img.jpg" alt="" />
@@ -23,7 +23,7 @@ const HomeAboutArea = () => {
               <div className="about-right-side pt-55 mb-30">
                 <div className="about-title mb-20">
                   <h5>About Us</h5>
-                  <h1>Short Story About Promi Dental Care</h1>
+                  <h1>Short Story About PromiDent</h1>
                 </div>
                 <div className="about-text">
                   <p>
