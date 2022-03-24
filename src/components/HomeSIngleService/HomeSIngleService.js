@@ -11,7 +11,7 @@ const HomeSIngleService = ({ icon, title, description, border_class}) => {
                </div>
                <div className="service-content">
                   <h3><Link to="/servicesDetails">{title}</Link></h3>
-                  <p>{description.slice(0, 140)}...</p>
+                  <p>{description?.slice(0, 140)}...</p>
                   <Link className="service-link" to="/servicesDetails">Read More</Link>
                </div>
             </div>
